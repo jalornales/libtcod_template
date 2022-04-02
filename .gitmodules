@@ -1,0 +1,4 @@
+[submodule "lib/vendor/libtcod"]
+	path = lib/vendor/libtcod
+	url = https://github.com/libtcod/libtcod.git
+	shallow = true
