@@ -42,4 +42,4 @@ if(TIDY)
   set(CMAKE_CXX_CLANG_TIDY clang-tidy -header-filter=.,-checks=-*,readability-*)
 endif()
 
-file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/assets DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+#file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/assets DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
